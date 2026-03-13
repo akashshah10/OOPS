@@ -3,3 +3,6 @@
 # Snake_Case
 a = 5
 print(type(a))
+
+L = [1,2,3]
+print(type(L))
