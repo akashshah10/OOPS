@@ -9,7 +9,7 @@ print(type(L))  #L is an object of the built-in List class
 
 
 #Method vs Function
-print (len(L))
+print (len(L)) #Len(L)- Function 
 
-L.append(4)
+L.append(4)    #Method
 print (L)
