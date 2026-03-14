@@ -6,3 +6,10 @@ print(type(a))
 
 L = [1,2,3]
 print(type(L))  #L is an object of the built-in List class
+
+
+#Method vs Function
+print (len(L))
+
+L.append(4)
+print (L)
