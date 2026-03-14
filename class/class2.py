@@ -17,17 +17,20 @@ class Atm:
                            4. Enter 4 to check balance
                            5. Enter 5 to exit
  """)
-        if user_input == 1:
+        if user_input == "1":
             print("Create pin")
 
-        elif user_input == 2:
+        elif user_input == "2":
             print("Deposit")
 
-        elif user_input == 3:
+        elif user_input == "3":
             print("Deposit")
 
-        elif user_input == 4:
+        elif user_input == "4":
             print("Check balance")
 
         else:
             print("Bye")
+
+
+atm = Atm()
